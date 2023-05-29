@@ -5,7 +5,7 @@ public class FoodTruck {
 	private int id;
 	private String foodType;
 	private double rating;
-	private static int nextTruckId = 1;
+	private static int nextTruckId = 10011;
 
 	public FoodTruck(String name, String foodType, double rating) {
 		this.name = name;
@@ -16,7 +16,7 @@ public class FoodTruck {
 
 	@Override
 	public String toString() {
-		return "FoodTruck [id = " + id + "rating" + rating + "name" + name 
+		return "FoodTruck id = " + id + "rating" + rating + "name" + name 
 				+ "FoodType" + foodType;
 
 	}
