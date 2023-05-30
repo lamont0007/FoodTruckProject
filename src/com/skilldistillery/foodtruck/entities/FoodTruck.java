@@ -16,18 +16,12 @@ public class FoodTruck {
 
 	@Override
 	public String toString() {
-		return "FoodTruck id = " + id + "rating" + rating + "name" + name 
-				+ "FoodType" + foodType;
+		return "FoodTruck id: " + id + " Rating " + rating + " Name: " + name + " FoodType: " + foodType;
 
 	}
-	
-	
+
 	public double getRating() {
 		return rating;
 	}
-
-	public void setRating(double rating) {
-		this.rating = rating;
-	} 
 
 }
